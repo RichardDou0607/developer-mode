@@ -1,0 +1,12 @@
+# 依赖（bundle 本身无依赖，安装时由 DSH 解析）
+node_modules/
+
+# 日志
+*.log
+
+# 本地环境与凭据，永不入库
+.env
+.env.*
+
+# macOS
+.DS_Store
