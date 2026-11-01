@@ -1,0 +1,30 @@
+{
+  "name": "dsh-developer-mode",
+  "version": "0.2.1",
+  "private": true,
+  "type": "module",
+  "description": "开发者模式：向 DSH 新建会话的模式选择器加入「开发者模式」Agent 预设，内嵌可验证的工程化开发流程（探索可复用源码 → 小步开发 → 烟测 → 回归测试 → Git 提交 → GitHub PR），并挂载 dev-workflow 技能提供阶段门禁、测试策略与命令模板。",
+  "license": "MIT",
+  "engines": {
+    "dsh": ">=0.2.1-rc.5 <0.3.0"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "skills/**"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "开发者模式",
+    "description": "工程化开发流程 Agent 预设：先探索可复用源码与既有模式，再小步实现，随后用烟测与回归测试留下证据，最后按 Conventional Commits 提交并用 gh 创建 PR。内置 dev-workflow 技能承载阶段门禁、测试策略与 Git/GitHub 清单。"
+  }
+}
