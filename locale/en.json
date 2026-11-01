@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Developer Mode",
+    "description": "An engineering-workflow agent preset: explore reusable code and existing patterns first, implement in small verified steps, prove behavior with smoke and regression tests, then commit with Conventional Commits and open a pull request with the gh CLI. Ships the dev-workflow skill with stage gates, test strategy, and Git/GitHub checklists."
+  }
+}
